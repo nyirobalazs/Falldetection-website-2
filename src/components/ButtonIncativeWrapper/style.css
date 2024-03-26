@@ -1,0 +1,26 @@
+.button-incative-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.button-incative-wrapper .class-7 {
+  align-self: stretch !important;
+  background-color: #4fc7fb !important;
+  display: flex !important;
+  width: 368px !important;
+}
+
+.button-incative-wrapper .class-8 {
+  align-self: stretch !important;
+  background-color: #005bd4 !important;
+  display: flex !important;
+  width: 368px !important;
+}
+
+.button-incative-wrapper .class-9 {
+  align-self: stretch !important;
+  background-color: #020202 !important;
+  display: flex !important;
+  width: 368px !important;
+}

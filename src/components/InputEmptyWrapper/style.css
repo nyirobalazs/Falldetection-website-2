@@ -1,0 +1,27 @@
+.input-empty-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.input-empty-wrapper .class {
+  color: #070708 !important;
+}
+
+.input-empty-wrapper .class-2 {
+  color: #b2b2b7 !important;
+}
+
+.input-empty-wrapper .class-3 {
+  align-self: stretch !important;
+  border: 2px solid !important;
+  border-color: #005bd4 !important;
+  width: 368px !important;
+}
+
+.input-empty-wrapper .class-4 {
+  align-self: stretch !important;
+  border: 2px solid !important;
+  border-color: #000000 !important;
+  width: 368px !important;
+}

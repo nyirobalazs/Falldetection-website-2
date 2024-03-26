@@ -1,0 +1,67 @@
+.login {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login .group-wrapper {
+  height: 1024px;
+  width: 1440px;
+}
+
+.login .group {
+  background-color: #ffffff;
+  height: 1024px;
+}
+
+.login .div-2 {
+  background-color: #ffffff;
+  height: 433px;
+  left: 503px;
+  position: relative;
+  top: 295px;
+  width: 434px;
+}
+
+.login .div-wrapper {
+  height: 48px;
+  left: 33px;
+  position: absolute;
+  top: 56px;
+  width: 370px;
+}
+
+.login .text-wrapper-2 {
+  color: var(--grayscaleheader);
+  font-family: var(--desktop-display-small-bold-font-family);
+  font-size: var(--desktop-display-small-bold-font-size);
+  font-style: var(--desktop-display-small-bold-font-style);
+  font-weight: var(--desktop-display-small-bold-font-weight);
+  left: 0;
+  letter-spacing: var(--desktop-display-small-bold-letter-spacing);
+  line-height: var(--desktop-display-small-bold-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 368px;
+}
+
+.login .username-input {
+  left: 33px !important;
+  position: absolute !important;
+  top: 152px !important;
+}
+
+.login .text-input-instance {
+  left: 33px !important;
+  position: absolute !important;
+  top: 237px !important;
+}
+
+.login .button-primary-instance {
+  left: 33px !important;
+  position: absolute !important;
+  top: 322px !important;
+}

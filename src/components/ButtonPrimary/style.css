@@ -1,0 +1,447 @@
+.button-primary {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.button-primary .button {
+  color: var(--grayscalebackground);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-primary .class-5 {
+  height: 15px !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 15px !important;
+}
+
+.button-primary .class-6 {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.button-primary .button-2 {
+  color: var(--grayscalebackground);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-primary.right-justified {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-primary.size-14-large {
+  border-radius: 12px;
+}
+
+.button-primary.no-icon {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.button-primary.state-5-disabled {
+  background-color: var(--primarydefault);
+  opacity: 0.5;
+}
+
+.button-primary.state-5-pressed {
+  background-color: var(--grayscaleheader);
+}
+
+.button-primary.state-5-hover {
+  background-color: var(--primarydefault-strong);
+}
+
+.button-primary.size-14-small {
+  border-radius: 8px;
+}
+
+.button-primary.size-14-medium {
+  border-radius: 12px;
+}
+
+.button-primary.state-5-default {
+  background-color: var(--primarydefault);
+}
+
+.button-primary.icon-only {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.button-primary.size-14-huge {
+  border-radius: 16px;
+}
+
+.button-primary.right {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.button-primary.left-justified {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-primary.state-5-focused {
+  background-color: var(--primarydefault);
+  border: 8px solid;
+  border-color: var(--primarybackground-strong);
+}
+
+.button-primary.left {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.button-primary.icon-only.size-14-small {
+  gap: 12px;
+  padding: 12px;
+}
+
+.button-primary.size-14-small.left-justified {
+  padding: 10px 16px;
+}
+
+.button-primary.right.size-14-large {
+  gap: 16px;
+  padding: 18px 32px;
+}
+
+.button-primary.left.size-14-large {
+  gap: 16px;
+  padding: 18px 32px;
+}
+
+.button-primary.no-icon.size-14-small {
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.button-primary.left.size-14-huge {
+  gap: 16px;
+  padding: 19px 32px;
+}
+
+.button-primary.size-14-large.left-justified {
+  padding: 18px 32px;
+}
+
+.button-primary.size-14-small.right-justified {
+  padding: 10px 16px;
+}
+
+.button-primary.size-14-huge.left-justified {
+  padding: 19px 32px;
+}
+
+.button-primary.size-14-large.right-justified {
+  padding: 18px 32px;
+}
+
+.button-primary.left.size-14-medium {
+  gap: 12px;
+  padding: 14px 24px;
+}
+
+.button-primary.icon-only.size-14-large {
+  gap: 16px;
+  padding: 20px;
+}
+
+.button-primary.no-icon.size-14-huge {
+  gap: 16px;
+  padding: 19px 32px;
+}
+
+.button-primary.size-14-small.right {
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.button-primary.size-14-medium.right-justified {
+  padding: 14px 24px;
+}
+
+.button-primary.size-14-small.left {
+  gap: 12px;
+  padding: 10px 16px;
+}
+
+.button-primary.no-icon.size-14-large {
+  gap: 16px;
+  padding: 18px 32px;
+}
+
+.button-primary.right-justified.size-14-huge {
+  padding: 19px 32px;
+}
+
+.button-primary.right.size-14-medium {
+  gap: 12px;
+  padding: 14px 24px;
+}
+
+.button-primary.icon-only.size-14-medium {
+  gap: 12px;
+  padding: 16px;
+}
+
+.button-primary.no-icon.size-14-medium {
+  gap: 12px;
+  padding: 14px 24px;
+}
+
+.button-primary.right.size-14-huge {
+  gap: 16px;
+  padding: 19px 32px;
+}
+
+.button-primary.size-14-medium.left-justified {
+  padding: 14px 24px;
+}
+
+.button-primary.icon-only.size-14-huge {
+  gap: 16px;
+  padding: 24px;
+}
+
+.button-primary.state-5-pressed.size-14-small.left-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-hover.right-justified.size-14-huge {
+  width: 169px;
+}
+
+.button-primary.state-5-disabled.right-justified.size-14-large {
+  width: 159px;
+}
+
+.button-primary.state-5-focused.size-14-small.right-justified {
+  width: 134px;
+}
+
+.button-primary.state-5-pressed.size-14-large.left-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-default.size-14-small.right-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-focused.size-14-medium.right-justified {
+  width: 155px;
+}
+
+.button-primary.state-5-hover.size-14-small.right-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-default.size-14-huge.left-justified {
+  width: 169px;
+}
+
+.button-primary.state-5-pressed.size-14-medium.left-justified {
+  width: 139px;
+}
+
+.button-primary.state-5-default.size-14-small.left-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-hover.size-14-large.left-justified {
+  width: 159px;
+}
+
+.button-primary.size-14-small.state-5-disabled.left-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-pressed.size-14-large.right-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-disabled.size-14-large.left-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-hover.size-14-small.left-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-disabled.size-14-small.right-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-disabled.size-14-medium.left-justified {
+  width: 139px;
+}
+
+.button-primary.state-5-hover.size-14-medium.right-justified {
+  width: 139px;
+}
+
+.button-primary.state-5-pressed.size-14-huge.left-justified {
+  width: 169px;
+}
+
+.button-primary.state-5-disabled.right-justified.size-14-huge {
+  width: 169px;
+}
+
+.button-primary.state-5-hover.size-14-large.right-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-disabled.right-justified.size-14-medium {
+  width: 139px;
+}
+
+.button-primary.state-5-default.right-justified.size-14-huge {
+  width: 169px;
+}
+
+.button-primary.state-5-focused.size-14-large.right-justified {
+  width: 175px;
+}
+
+.button-primary.size-14-medium.state-5-default.right-justified {
+  width: 139px;
+}
+
+.button-primary.state-5-pressed.size-14-small.right-justified {
+  width: 118px;
+}
+
+.button-primary.state-5-focused.right-justified.size-14-huge {
+  width: 185px;
+}
+
+.button-primary.state-5-hover.size-14-medium.left-justified {
+  width: 139px;
+}
+
+.button-primary.size-14-large.state-5-default.right-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-focused.size-14-small.left-justified {
+  width: 134px;
+}
+
+.button-primary.state-5-default.size-14-medium.left-justified {
+  width: 139px;
+}
+
+.button-primary.size-14-huge.state-5-disabled.left-justified {
+  width: 169px;
+}
+
+.button-primary.state-5-focused.size-14-medium.left-justified {
+  width: 155px;
+}
+
+.button-primary.state-5-pressed.right-justified.size-14-huge {
+  width: 169px;
+}
+
+.button-primary.state-5-default.size-14-large.left-justified {
+  width: 159px;
+}
+
+.button-primary.state-5-focused.size-14-huge.left-justified {
+  width: 185px;
+}
+
+.button-primary.state-5-pressed.size-14-medium.right-justified {
+  width: 139px;
+}
+
+.button-primary.state-5-focused.size-14-large.left-justified {
+  width: 175px;
+}
+
+.button-primary.state-5-hover.size-14-huge.left-justified {
+  width: 169px;
+}
+
+.button-primary.size-14-huge .button {
+  font-family: var(--desktop-link-medium-font-family);
+  font-size: var(--desktop-link-medium-font-size);
+  font-style: var(--desktop-link-medium-font-style);
+  font-weight: var(--desktop-link-medium-font-weight);
+  letter-spacing: var(--desktop-link-medium-letter-spacing);
+  line-height: var(--desktop-link-medium-line-height);
+}
+
+.button-primary.size-14-large .button {
+  font-family: var(--desktop-link-small-font-family);
+  font-size: var(--desktop-link-small-font-size);
+  font-style: var(--desktop-link-small-font-style);
+  font-weight: var(--desktop-link-small-font-weight);
+  letter-spacing: var(--desktop-link-small-letter-spacing);
+  line-height: var(--desktop-link-small-line-height);
+}
+
+.button-primary.size-14-medium .button {
+  font-family: var(--desktop-link-small-font-family);
+  font-size: var(--desktop-link-small-font-size);
+  font-style: var(--desktop-link-small-font-style);
+  font-weight: var(--desktop-link-small-font-weight);
+  letter-spacing: var(--desktop-link-small-letter-spacing);
+  line-height: var(--desktop-link-small-line-height);
+}
+
+.button-primary.size-14-small .button {
+  font-family: var(--desktop-link-x-small-font-family);
+  font-size: var(--desktop-link-x-small-font-size);
+  font-style: var(--desktop-link-x-small-font-style);
+  font-weight: var(--desktop-link-x-small-font-weight);
+  letter-spacing: var(--desktop-link-x-small-letter-spacing);
+  line-height: var(--desktop-link-x-small-line-height);
+}
+
+.button-primary.size-14-huge .button-2 {
+  font-family: var(--desktop-link-medium-font-family);
+  font-size: var(--desktop-link-medium-font-size);
+  font-style: var(--desktop-link-medium-font-style);
+  font-weight: var(--desktop-link-medium-font-weight);
+  letter-spacing: var(--desktop-link-medium-letter-spacing);
+  line-height: var(--desktop-link-medium-line-height);
+}
+
+.button-primary.size-14-large .button-2 {
+  font-family: var(--desktop-link-small-font-family);
+  font-size: var(--desktop-link-small-font-size);
+  font-style: var(--desktop-link-small-font-style);
+  font-weight: var(--desktop-link-small-font-weight);
+  letter-spacing: var(--desktop-link-small-letter-spacing);
+  line-height: var(--desktop-link-small-line-height);
+}
+
+.button-primary.size-14-medium .button-2 {
+  font-family: var(--desktop-link-small-font-family);
+  font-size: var(--desktop-link-small-font-size);
+  font-style: var(--desktop-link-small-font-style);
+  font-weight: var(--desktop-link-small-font-weight);
+  letter-spacing: var(--desktop-link-small-letter-spacing);
+  line-height: var(--desktop-link-small-line-height);
+}
+
+.button-primary.size-14-small .button-2 {
+  font-family: var(--desktop-link-x-small-font-family);
+  font-size: var(--desktop-link-x-small-font-size);
+  font-style: var(--desktop-link-x-small-font-style);
+  font-weight: var(--desktop-link-x-small-font-weight);
+  letter-spacing: var(--desktop-link-x-small-letter-spacing);
+  line-height: var(--desktop-link-x-small-line-height);
+}
